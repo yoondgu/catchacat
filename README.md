@@ -14,8 +14,7 @@ Spring Boot 웹 프로젝트 개발 프로세스를 토이프로젝트를 통해
 ## 📅 개발 기간 Development Period (in progress)
 ### 2022.07.16
 ### (2022.07.16 기준) 차후 진행 예정
-- Random cat api로 이미지 불러오는 속도 느린 것 해결 
-- 차후 aws에 배포하여 다른 컴퓨터에서 이용할 수 있게 만들어볼 예정임.
+- Random cat api로 이미지 불러오는 속도 느린 것 해결하기
 
 ## 💻 개발 환경 Development Environment
 - OS :  Window 10 64bit
