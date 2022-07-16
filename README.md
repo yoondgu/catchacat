@@ -1,4 +1,5 @@
 # Catch A Cat
+![catchacat](https://user-images.githubusercontent.com/97426362/179360371-db69e029-5dc9-4ffc-93c1-9daddf711742.gif)
 - 간단한 게임을 할 수 있는 웹 사이트
 - 화면의 고양이를 누르면 성공/실패 결과를 확인할 수 있다.
 - 실패 결과가 나오면 게임이 중단된다.
