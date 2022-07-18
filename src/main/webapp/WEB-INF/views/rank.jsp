@@ -15,11 +15,11 @@
 <div class="container min-vh-100 d-flex flex-column align-items-stretch">
 	<c:set var="page" value="rank" />
 	<%@ include file="common/nav.jsp" %>
-	<div class="row my-auto">
-		<div class="col ${empty SCORE ? 'mx-auto' : '' }">
+	<div class="row my-auto d-flex flex-column flex-sm-row">
+		<div class="col p-3 m-auto">
 			<h2 class="fw-bold">CURRENT RANKING</h2>
-			<img alt="catimage" src="/resources/images/funcat.jpg" class="m-auto ps-0 py-3 w-50">
-			<table class="table table-sm w-50">
+			<img alt="catimage" src="/resources/images/funcat.jpg" class="img-fluid my-5">
+			<table class="table table-sm w-100">
 				<colgroup>
 					<col width="15%" />
 					<col width="*" />
@@ -36,7 +36,7 @@
 				</tbody>
 			</table>
 		</div>
-		<div class="col my-auto ${empty SCORE ? 'd-none' : '' }">
+		<div class="col o-3 my-auto ${empty SCORE ? 'd-none' : '' }">
 			<div class="card p-3 w-80">
 				<h3>RECORD YOUR SCORE</h3>
 				<small>if you click 'Home' Button, your score will be reset.</small>

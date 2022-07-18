@@ -17,7 +17,11 @@
 	<%@ include file="common/nav.jsp" %>
 	<div class="row p-3">
 		<p class="fs-1 fw-bold text-center">fail</p>
-		<img alt="cat" id="catimage" src="/resources/images/failcat.jpg" class="m-auto p-3" style="width: 600px; heigth: auto">
+	</div>
+	<div class="row p-3 justify-content-center">
+		<div class="col-8">
+			<img alt="cat" id="catimage" src="/resources/images/failcat.jpg" class="img-fluid">
+		</div>
 	</div>
 </div>
 </body>

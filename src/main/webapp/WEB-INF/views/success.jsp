@@ -18,9 +18,13 @@
 	<div class="row p-3">
 		<p class="fs-1 fw-bold text-center">success</p>
 		<p class="fs-3 text-center">click me!</p>
-		<a href="/" class="text-center p-3">
-			<img alt="cat" id="catimage" src="" style="width: 600px; heigth: auto">
-		</a>
+	</div>
+	<div class="row p-3 justify-content-center">
+		<div class="col-8 text-center">
+			<a href="/">
+				<img alt="cat" id="catimage" src="" class="img-fluid">
+			</a>
+		</div>
 	</div>
 </body>
 <script type="text/javascript">
