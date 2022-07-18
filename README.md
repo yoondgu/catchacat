@@ -16,7 +16,6 @@ Spring Boot 웹 프로젝트 개발 프로세스를 토이프로젝트를 통해
 ### (2022.07.16 기준) 차후 보완 예정
 - Random cat api로 이미지 불러오는 속도 느린 것 해결하기
 - 성공 화면에서 새로고침 방지하기
-- 고양이 사진 크기 반응형으로 수정
 
 ## 💻 개발 환경 Development Environment
 - OS :  Window 10 64bit
