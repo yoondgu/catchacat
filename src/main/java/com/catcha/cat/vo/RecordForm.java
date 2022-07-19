@@ -15,7 +15,7 @@ import lombok.ToString;
 public class RecordForm {
 	
 	@NotBlank(message = "name must be filled")
-	@Size(max = 10, message = "name is too long")
+	@Size(max = 9, message = "name is too long")
 	private String name;
 	private int score;
 
