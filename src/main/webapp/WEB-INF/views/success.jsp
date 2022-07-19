@@ -29,9 +29,24 @@
 </body>
 <script type="text/javascript">
 	// 랜덤 고양이 이미지 api에서 json을 받아옴(바로 띄울 수 있는 외부 파일 경로)
+
+/*
+$.get("https://aws.random.cat/meow", function(data, status) {
+	$("#catimage").attr("src", data.file);
+}, "json");
+*/
+
+/*
+$(function () {
 	$.get("https://aws.random.cat/meow", function(data, status) {
 		$("#catimage").attr("src", data.file);
 	}, "json");
-	
+});
+*/
+
+// 비동기식으로 요청, 응답처리 하기
+fetch("https://aws.random.cat/meow")
+.then(res => res.json())
+.then(json => $("#catimage").attr("src", json.file));
 </script>
 </html>
